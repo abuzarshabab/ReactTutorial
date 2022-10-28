@@ -1,0 +1,22 @@
+.paragraphStyle {
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  color: red;
+  background-color:aqua;
+} 
+
+.likeCount {
+  font-size: 20px;
+}
+.like {
+  font-size: 16px;
+}
+@media (min-width: 992px) {
+  .paragraphStyle {
+    width: 45%;
+    display: inline-block;
+    color: white;
+    background-color: cyan;
+  }
+}
